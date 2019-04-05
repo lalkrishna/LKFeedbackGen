@@ -33,3 +33,8 @@ This is an open source project, so feel free to contribute. How?
 - Open an [issue](https://github.com/lalkrishna/LKFeedbackGen/issues/new).
 - Send feedback via [email](mailto:lalkrishna@live.com).
 - Propose your own fixes, suggestions and open a pull request with the changes.
+
+## Author
+
+Lal Krishna
+[Twitter](http://www.twitter.com/itzme_lal)
