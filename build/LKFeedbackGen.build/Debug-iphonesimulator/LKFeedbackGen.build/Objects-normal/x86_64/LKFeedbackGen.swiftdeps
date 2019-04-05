@@ -1,0 +1,686 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FeedbackSupport"
+- "LKFeedbackGen"
+- "FeedbackManager"
+provides-nominal:
+- "13LKFeedbackGen15FeedbackSupportO"
+- "13LKFeedbackGenAAV"
+- "13LKFeedbackGenAAV12TapticSignalO"
+- "13LKFeedbackGenAAV12HapticSignalO"
+- "13LKFeedbackGen15FeedbackManagerC"
+provides-member:
+- ["13LKFeedbackGen15FeedbackSupportO", ""]
+- ["13LKFeedbackGenAAV", ""]
+- ["13LKFeedbackGenAAV12TapticSignalO", ""]
+- ["13LKFeedbackGenAAV12HapticSignalO", ""]
+- ["13LKFeedbackGen15FeedbackManagerC", ""]
+- ["So8UIDeviceC", ""]
+- ["So8UIDeviceC", "deviceName"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "..<"
+- "=="
+- !private ">="
+- "AssignmentPrecedence"
+- !private "AudioServicesPlaySystemSound"
+- !private "CastingPrecedence"
+- "FeedbackManager"
+- "FeedbackSupport"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- "LKFeedbackGen"
+- !private "Mirror"
+- "String"
+- !private "StringLiteralType"
+- "SystemSoundID"
+- "UIDevice"
+- !private "UIImpactFeedbackGenerator"
+- !private "UINotificationFeedbackGenerator"
+- !private "UISelectionFeedbackGenerator"
+- !private "UInt8"
+- !private "UnicodeScalar"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- !private "kSystemSoundID_Vibrate"
+- !private "uname"
+- !private "utsname"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s13AnyCollectionV", "reduce"]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["SK", "lowerBound"]
+- !private ["SK", "range"]
+- !private ["SK", "replacingOccurrences"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "FeedbackStyle"]
+- !private ["s7CVarArgP", "Mirror"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UInt8"]
+- !private ["s7CVarArgP", "UnicodeScalar"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "deviceName"]
+- !private ["s7CVarArgP", "impactOccurred"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "notificationOccurred"]
+- !private ["s7CVarArgP", "prepare"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "selectionChanged"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uname"]
+- !private ["s7CVarArgP", "utsname"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "lowerBound"]
+- !private ["Sl", "range"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "replacingOccurrences"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "contains"]
+- !private ["SL", "init"]
+- !private ["SL", "range"]
+- !private ["SL", "replacingOccurrences"]
+- !private ["SL", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "FeedbackStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "Mirror"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "UnicodeScalar"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceName"]
+- !private ["s28CustomDebugStringConvertibleP", "haptic"]
+- !private ["s28CustomDebugStringConvertibleP", "impactOccurred"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "notificationOccurred"]
+- !private ["s28CustomDebugStringConvertibleP", "prepare"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "selectionChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tapticEngine"]
+- !private ["s28CustomDebugStringConvertibleP", "uname"]
+- !private ["s28CustomDebugStringConvertibleP", "utsname"]
+- !private ["s17CustomReflectableP", "children"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "haptic"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "range"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "tapticEngine"]
+- !private ["s23CustomStringConvertibleP", "FeedbackStyle"]
+- !private ["s23CustomStringConvertibleP", "Mirror"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UnicodeScalar"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "deviceName"]
+- !private ["s23CustomStringConvertibleP", "impactOccurred"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- !private ["s23CustomStringConvertibleP", "notificationOccurred"]
+- !private ["s23CustomStringConvertibleP", "prepare"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "selectionChanged"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uname"]
+- !private ["s23CustomStringConvertibleP", "utsname"]
+- !private ["Se", "contains"]
+- !private ["Se", "haptic"]
+- !private ["Se", "init"]
+- !private ["Se", "lowerBound"]
+- !private ["Se", "none"]
+- !private ["Se", "range"]
+- !private ["Se", "replacingOccurrences"]
+- !private ["Se", "subscript"]
+- !private ["Se", "tapticEngine"]
+- !private ["SE", "contains"]
+- !private ["SE", "haptic"]
+- !private ["SE", "init"]
+- !private ["SE", "lowerBound"]
+- !private ["SE", "none"]
+- !private ["SE", "range"]
+- !private ["SE", "replacingOccurrences"]
+- !private ["SE", "subscript"]
+- !private ["SE", "tapticEngine"]
+- ["SQ", "=="]
+- !private ["SQ", "AudioServicesPlaySystemSound"]
+- !private ["SQ", "FeedbackStyle"]
+- !private ["SQ", "Mirror"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UIImpactFeedbackGenerator"]
+- !private ["SQ", "UINotificationFeedbackGenerator"]
+- !private ["SQ", "UISelectionFeedbackGenerator"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "UnicodeScalar"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "asTaptic"]
+- ["SQ", "cancelled"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "current"]
+- !private ["SQ", "deviceName"]
+- ["SQ", "error"]
+- ["SQ", "failed"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "feedback"]
+- ["SQ", "haptic"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "heavy"]
+- !private ["SQ", "impactFeedback"]
+- !private ["SQ", "impactOccurred"]
+- !private ["SQ", "init"]
+- ["SQ", "light"]
+- !private ["SQ", "lowerBound"]
+- ["SQ", "medium"]
+- ["SQ", "none"]
+- !private ["SQ", "notificationFeedback"]
+- !private ["SQ", "notificationOccurred"]
+- ["SQ", "peek"]
+- ["SQ", "pop"]
+- !private ["SQ", "prepare"]
+- !private ["SQ", "range"]
+- !private ["SQ", "replacingOccurrences"]
+- ["SQ", "selection"]
+- !private ["SQ", "selectionChanged"]
+- !private ["SQ", "selectionFeedback"]
+- !private ["SQ", "soundID"]
+- !private ["SQ", "subscript"]
+- ["SQ", "success"]
+- ["SQ", "tapticEngine"]
+- ["SQ", "tryAgain"]
+- !private ["SQ", "uname"]
+- !private ["SQ", "utsname"]
+- ["SQ", "warn"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "haptic"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "tapticEngine"]
+- !private ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "range"]
+- !private ["s32ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s32ExpressibleByStringInterpolationP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- ["13LKFeedbackGen15FeedbackManagerC", "FeedbackManager"]
+- ["13LKFeedbackGen15FeedbackManagerC", "FeedbackSupport"]
+- !private ["13LKFeedbackGen15FeedbackManagerC", "Int"]
+- !private ["13LKFeedbackGen15FeedbackManagerC", "UIDevice"]
+- ["13LKFeedbackGen15FeedbackManagerC", "checkFeedback"]
+- ["13LKFeedbackGen15FeedbackManagerC", "feedback"]
+- ["13LKFeedbackGen15FeedbackManagerC", "init"]
+- ["13LKFeedbackGen15FeedbackManagerC", "shared"]
+- !private ["So21UIImpactFeedbackStyleV", "heavy"]
+- !private ["So21UIImpactFeedbackStyleV", "light"]
+- !private ["So21UIImpactFeedbackStyleV", "medium"]
+- ["13LKFeedbackGen15FeedbackSupportO", "=="]
+- ["13LKFeedbackGen15FeedbackSupportO", "__derived_enum_equals"]
+- ["13LKFeedbackGen15FeedbackSupportO", "_rawHashValue"]
+- ["13LKFeedbackGen15FeedbackSupportO", "deinit"]
+- ["13LKFeedbackGen15FeedbackSupportO", "haptic"]
+- ["13LKFeedbackGen15FeedbackSupportO", "hash"]
+- ["13LKFeedbackGen15FeedbackSupportO", "hashValue"]
+- ["13LKFeedbackGen15FeedbackSupportO", "none"]
+- ["13LKFeedbackGen15FeedbackSupportO", "tapticEngine"]
+- !private ["So26UINotificationFeedbackTypeV", "error"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "=="]
+- ["13LKFeedbackGenAAV12HapticSignalO", "TapticSignal"]
+- !private ["13LKFeedbackGenAAV12HapticSignalO", "UIImpactFeedbackGenerator"]
+- !private ["13LKFeedbackGenAAV12HapticSignalO", "UINotificationFeedbackGenerator"]
+- !private ["13LKFeedbackGenAAV12HapticSignalO", "UISelectionFeedbackGenerator"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "__derived_enum_equals"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "_rawHashValue"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "asTaptic"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "cancelled"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "deinit"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "error"]
+- !private ["13LKFeedbackGenAAV12HapticSignalO", "fatalError"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "feedback"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "hash"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "hashValue"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "heavy"]
+- !private ["13LKFeedbackGenAAV12HapticSignalO", "impactFeedback"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "light"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "medium"]
+- !private ["13LKFeedbackGenAAV12HapticSignalO", "notificationFeedback"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "selection"]
+- !private ["13LKFeedbackGenAAV12HapticSignalO", "selectionFeedback"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "success"]
+- ["13LKFeedbackGenAAV12HapticSignalO", "warn"]
+- ["SH", "=="]
+- !private ["SH", "AudioServicesPlaySystemSound"]
+- !private ["SH", "FeedbackStyle"]
+- !private ["SH", "Mirror"]
+- !private ["SH", "String"]
+- !private ["SH", "UIImpactFeedbackGenerator"]
+- !private ["SH", "UINotificationFeedbackGenerator"]
+- !private ["SH", "UISelectionFeedbackGenerator"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "UnicodeScalar"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "asTaptic"]
+- ["SH", "cancelled"]
+- !private ["SH", "contains"]
+- !private ["SH", "current"]
+- !private ["SH", "deviceName"]
+- ["SH", "error"]
+- ["SH", "failed"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "feedback"]
+- ["SH", "haptic"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "heavy"]
+- !private ["SH", "impactFeedback"]
+- !private ["SH", "impactOccurred"]
+- !private ["SH", "init"]
+- ["SH", "light"]
+- !private ["SH", "lowerBound"]
+- ["SH", "medium"]
+- ["SH", "none"]
+- !private ["SH", "notificationFeedback"]
+- !private ["SH", "notificationOccurred"]
+- ["SH", "peek"]
+- ["SH", "pop"]
+- !private ["SH", "prepare"]
+- !private ["SH", "range"]
+- !private ["SH", "replacingOccurrences"]
+- ["SH", "selection"]
+- !private ["SH", "selectionChanged"]
+- !private ["SH", "selectionFeedback"]
+- !private ["SH", "soundID"]
+- !private ["SH", "subscript"]
+- ["SH", "success"]
+- ["SH", "tapticEngine"]
+- ["SH", "tryAgain"]
+- !private ["SH", "uname"]
+- !private ["SH", "utsname"]
+- ["SH", "warn"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["13LKFeedbackGenAAV", "AudioServicesPlaySystemSound"]
+- !private ["13LKFeedbackGenAAV", "FeedbackManager"]
+- ["13LKFeedbackGenAAV", "HapticSignal"]
+- ["13LKFeedbackGenAAV", "SystemSoundID"]
+- ["13LKFeedbackGenAAV", "TapticSignal"]
+- !private ["13LKFeedbackGenAAV", "UIImpactFeedbackGenerator"]
+- !private ["13LKFeedbackGenAAV", "UINotificationFeedbackGenerator"]
+- !private ["13LKFeedbackGenAAV", "UISelectionFeedbackGenerator"]
+- !private ["13LKFeedbackGenAAV", "fatalError"]
+- ["13LKFeedbackGenAAV", "feedback"]
+- !private ["13LKFeedbackGenAAV", "generateDefaultVibration"]
+- !private ["13LKFeedbackGenAAV", "generateHapticFeedback"]
+- !private ["13LKFeedbackGenAAV", "generateTapticFeedback"]
+- ["13LKFeedbackGenAAV", "init"]
+- !private ["13LKFeedbackGenAAV", "kSystemSoundID_Vibrate"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "range"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s25LosslessStringConvertibleP", "subscript"]
+- !private ["s6MirrorV", "children"]
+- !private ["s6MirrorV", "init"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "range"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "subscript"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "subscript"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "subscript"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSObjectC", "FeedbackStyle"]
+- !private ["So8NSObjectC", "Int8"]
+- !private ["So8NSObjectC", "Mirror"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UInt8"]
+- !private ["So8NSObjectC", "UnicodeScalar"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "deviceName"]
+- !private ["So8NSObjectC", "impactOccurred"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "notificationOccurred"]
+- !private ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "range"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "selectionChanged"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "uname"]
+- !private ["So8NSObjectC", "utsname"]
+- !private ["So8NSObjectP", "FeedbackStyle"]
+- !private ["So8NSObjectP", "Mirror"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UInt8"]
+- !private ["So8NSObjectP", "UnicodeScalar"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "deviceName"]
+- !private ["So8NSObjectP", "impactOccurred"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "notificationOccurred"]
+- !private ["So8NSObjectP", "prepare"]
+- !private ["So8NSObjectP", "range"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
+- !private ["So8NSObjectP", "selectionChanged"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["So8NSObjectP", "uname"]
+- !private ["So8NSObjectP", "utsname"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So8NSStringC", "contains"]
+- !private ["So8NSStringC", "range"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So8NSStringC", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sq", "haptic"]
+- !private ["Sq", "none"]
+- !private ["Sq", "tapticEngine"]
+- !private ["Sk", "lowerBound"]
+- !private ["Sn", "lowerBound"]
+- !private ["SX", "lowerBound"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "init"]
+- !private ["Sm", "range"]
+- !private ["Sm", "replacingOccurrences"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "error"]
+- !private ["SY", "heavy"]
+- !private ["SY", "light"]
+- !private ["SY", "medium"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s7UnicodeO6ScalarV", "init"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "lowerBound"]
+- !private ["ST", "range"]
+- !private ["ST", "reduce"]
+- !private ["ST", "replacingOccurrences"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "range"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["SS", "subscript"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "range"]
+- !private ["Sy", "replacingOccurrences"]
+- !private ["Sy", "subscript"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "=="]
+- !private ["13LKFeedbackGenAAV12TapticSignalO", "AudioServicesPlaySystemSound"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "SystemSoundID"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "__derived_enum_equals"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "_rawHashValue"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "cancelled"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "deinit"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "failed"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "feedback"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "hash"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "hashValue"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "peek"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "pop"]
+- !private ["13LKFeedbackGenAAV12TapticSignalO", "soundID"]
+- ["13LKFeedbackGenAAV12TapticSignalO", "tryAgain"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "range"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "subscript"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "range"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["So8UIDeviceC", "Int8"]
+- !private ["So8UIDeviceC", "Mirror"]
+- ["So8UIDeviceC", "String"]
+- !private ["So8UIDeviceC", "UInt8"]
+- !private ["So8UIDeviceC", "UnicodeScalar"]
+- !private ["So8UIDeviceC", "current"]
+- ["So8UIDeviceC", "deviceName"]
+- !private ["So8UIDeviceC", "uname"]
+- !private ["So8UIDeviceC", "utsname"]
+- !private ["So19UIFeedbackGeneratorC", "FeedbackStyle"]
+- !private ["So19UIFeedbackGeneratorC", "impactOccurred"]
+- !private ["So19UIFeedbackGeneratorC", "init"]
+- !private ["So19UIFeedbackGeneratorC", "notificationOccurred"]
+- !private ["So19UIFeedbackGeneratorC", "prepare"]
+- !private ["So19UIFeedbackGeneratorC", "selectionChanged"]
+- !private ["So25UIImpactFeedbackGeneratorC", "FeedbackStyle"]
+- !private ["So25UIImpactFeedbackGeneratorC", "impactOccurred"]
+- !private ["So25UIImpactFeedbackGeneratorC", "init"]
+- !private ["So25UIImpactFeedbackGeneratorC", "prepare"]
+- !private ["So31UINotificationFeedbackGeneratorC", "init"]
+- !private ["So31UINotificationFeedbackGeneratorC", "notificationOccurred"]
+- !private ["So31UINotificationFeedbackGeneratorC", "prepare"]
+- !private ["So28UISelectionFeedbackGeneratorC", "init"]
+- !private ["So28UISelectionFeedbackGeneratorC", "prepare"]
+- !private ["So28UISelectionFeedbackGeneratorC", "selectionChanged"]
+- !private ["s5UInt8V", "init"]
+- !private ["SU", "init"]
+- !private ["s22_AnyCollectionProtocolP", "reduce"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "range"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "range"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "range"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "range"]
+- !private ["s19_HasContiguousBytesP", "replacingOccurrences"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FeedbackStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Mirror"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnicodeScalar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "impactOccurred"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notificationOccurred"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepare"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectionChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utsname"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "haptic"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "range"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "tapticEngine"]
+- !private ["s14_StringElementP", "init"]
+- !private ["So7utsnameV", "init"]
+- !private ["So7utsnameV", "machine"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "s13AnyCollectionV"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "13LKFeedbackGen15FeedbackManagerC"
+- !private "So21UIImpactFeedbackStyleV"
+- "13LKFeedbackGen15FeedbackSupportO"
+- !private "So26UINotificationFeedbackTypeV"
+- !private "s17FixedWidthIntegerP"
+- "13LKFeedbackGenAAV12HapticSignalO"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- "13LKFeedbackGenAAV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s6MirrorV"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "s7UnicodeO6ScalarV"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "13LKFeedbackGenAAV12TapticSignalO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So8UIDeviceC"
+- !private "So19UIFeedbackGeneratorC"
+- !private "So25UIImpactFeedbackGeneratorC"
+- !private "So31UINotificationFeedbackGeneratorC"
+- !private "So28UISelectionFeedbackGeneratorC"
+- !private "s5UInt8V"
+- !private "SU"
+- !private "s22_AnyCollectionProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- !private "So7utsnameV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/developer/Documents/PROJECTS/LKFeedbackGen/LKFeedbackGen/LKFeedbackGen.h"
+- "/Users/developer/Documents/PROJECTS/LKFeedbackGen/build/LKFeedbackGen.build/Debug-iphonesimulator/LKFeedbackGen.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "830c3baae7b0076ee9aa7a972c2406ec"

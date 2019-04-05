@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "92bcf9c5c5a1bc76a9a98487c970123b"
+build_time: [1554458286, 881762000]
+inputs:
+  "/Users/developer/Documents/PROJECTS/LKFeedbackGen/LKFeedbackGen/LKFeedbackGen.swift": [1552381349, 138919180]

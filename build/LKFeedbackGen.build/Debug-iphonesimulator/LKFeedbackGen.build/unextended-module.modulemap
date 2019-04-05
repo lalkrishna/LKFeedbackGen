@@ -1,0 +1,10 @@
+framework module LKFeedbackGen {
+  umbrella header "LKFeedbackGen.h"
+
+  export *
+  module * { export * }
+}
+
+module LKFeedbackGen.__Swift {
+    exclude header "LKFeedbackGen-Swift.h"
+}

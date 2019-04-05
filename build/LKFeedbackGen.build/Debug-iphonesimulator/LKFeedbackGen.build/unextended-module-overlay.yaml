@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/developer/Library/Developer/Xcode/DerivedData/LKFeedbackGen-fnesdlqriysfjdehhpeiywcrvxga/Build/Products/Debug-iphonesimulator/LKFeedbackGen.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/developer/Documents/PROJECTS/LKFeedbackGen/build/LKFeedbackGen.build/Debug-iphonesimulator/LKFeedbackGen.build/unextended-module.modulemap",
+    }]
+  }]
+}
