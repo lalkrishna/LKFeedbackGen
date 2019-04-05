@@ -4,7 +4,7 @@ Will let you to handle iOS device feedback mechanism easily. Will automatically 
 
 ## Usage
 
-**1.** Import SkeletonView in proper place.
+**1.** Import LKFeedbackGen in proper place.
 ```swift
 import LKFeedbackGen
 ```
