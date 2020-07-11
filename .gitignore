@@ -91,3 +91,16 @@ fastlane/test_output
 
 iOSInjectionProject/
 .DS_Store
+
+.build
+/.previous-build
+xcuserdata
+.DS_Store
+*~
+\#*
+.\#*
+*.xcscmblueprint
+/default.profraw
+Utilities/Docker/*.tar.gz
+.swiftpm
+Package.resolved

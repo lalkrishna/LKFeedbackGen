@@ -65,9 +65,9 @@ public struct LKFeedbackGen {
             generator.prepare()
             switch self {
             case .success:
-                generator.notificationOccurred(.error)
+                generator.notificationOccurred(.success)
             case .warn:
-                generator.notificationOccurred(.error)
+                generator.notificationOccurred(.warning)
             case .error, .cancelled:
                 generator.notificationOccurred(.error)
             default:
@@ -117,11 +117,14 @@ public struct LKFeedbackGen {
     
     
     
+    /// Generates feedback on device
+    /// - Parameters:
+    ///   - signal: Signal type which should be triggered.
     public static func feedback(signal: HapticSignal) {
         guard let feedback = FeedbackManager.shared.feedback else { return }
         switch feedback {
         case .none:
-            generateDefaultVibration()
+            break
         case .tapticEngine:
             generateTapticFeedback(signal.asTaptic)
         case .haptic:
@@ -137,7 +140,7 @@ public struct LKFeedbackGen {
         signal.feedback()
     }
     
-    private static func generateDefaultVibration() {
+    static func generateDefaultVibration() {
         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
     }
     
@@ -151,14 +154,14 @@ class FeedbackManager {
     var feedback: FeedbackSupport?
     
     private init() {
-        feedback = checkFeedback()
+        feedback = checkFeedbackSupport()
     }
     
-    func checkFeedback() -> FeedbackSupport? {
+    private func checkFeedbackSupport() -> FeedbackSupport? {
         var deviceName = UIDevice.current.deviceName()
-        guard deviceName.contains("iPhone") else { return .none }
+        guard deviceName.contains("iPhone") else { return FeedbackSupport.none }
         deviceName = deviceName.replacingOccurrences(of: "iPhone", with: "")
-        guard let range = deviceName.range(of: ",") else { return .none }
+        guard let range = deviceName.range(of: ",") else { return FeedbackSupport.none }
         let sub = deviceName[..<range.lowerBound]
         let version = Int(sub)!
         if version >= 9 {
@@ -167,7 +170,7 @@ class FeedbackManager {
         if version >= 8 {
             return .tapticEngine
         }
-        return .none
+        return FeedbackSupport.none
     }
     
 }
